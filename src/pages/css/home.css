@@ -1,17 +1,7 @@
-.bg {
-    background: url('https://i.imgur.com/USFbNpC.jpg') repeat;
-    position: fixed;
-    width: 100%;
-    height: 300%;
-    top:0;
-    left:0;
-    z-index: -1;
-  }
-  section {
-    color: #fff;
-    font-family: arial;
-    width: 500px;
-    margin: auto;
-    line-height: 20px;
-    font-size: 16px;
-  }
+#logo{text-align:center;}
+#logo img{width:600px;}
+#recherche{text-align:center;}
+#recherche img{width:100%;}
+#ligne1 .col-md-4,#ligne2 .col-md-4,#ligne3 .col-md-4 {text-align:center;}
+#ligne1 img,#ligne2 img,#ligne3 img{width:100%;}
+#rs{font-size:90px;text-align:center;}

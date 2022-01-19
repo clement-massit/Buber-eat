@@ -18,4 +18,6 @@ npm install
 ### 2. launch the app via React
 ```
 npm start
-```
+```  
+
+ENJOY !

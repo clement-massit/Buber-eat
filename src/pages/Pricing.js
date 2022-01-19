@@ -3,7 +3,7 @@ import "../components/navbar.css";
 import "./css/pricing.css";
 
 const Pricing = () => (
-  <div>
+  
     <div class="background">
       <div class="container">
         <div class="panel pricing-table">
@@ -45,7 +45,7 @@ const Pricing = () => (
       </div>
     </div>
 
-  </div>
+ 
 );
 
 export default Pricing;

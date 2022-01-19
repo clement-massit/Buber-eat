@@ -1,24 +1,17 @@
-html {
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 .background {
+  
   padding: 0 25px 25px;
   position: relative;
   width: 100%;
 }
 
 .background::after {
+  
   content: '';
   background: #60a9ff;
-  background: -moz-linear-gradient(top, #60a9ff 0%, #4394f4 100%);
-  background: -webkit-linear-gradient(top, #60a9ff 0%,#4394f4 100%);
-  background: linear-gradient(to bottom, #60a9ff 0%,#4394f4 100%);
+  background: -moz-linear-gradient(top, #fdcc9d  0%, #fdcc9d  100%);
+  background: -webkit-linear-gradient(top, #fdcc9d  0%,#fdcc9d  100%);
+  background: linear-gradient(to bottom, #fdcc9d  0%,#fdcc9d  100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9ff', endColorstr='#4394f4',GradientType=0 );
   height: 350px;
   left: 0;
@@ -34,9 +27,91 @@ html {
   }
 }
 
-.container {
-  margin: 0 auto;
-  padding: 50px 0 0;
-  max-width: 960px;
+.home_img{
   width: 100%;
 }
+
+h1 {
+  
+ 
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+    "AppleGothic", sans-serif;
+  font-size: 92px;
+
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+
+.left{
+  width:200px;
+  z-index: -1;
+  left:0;
+  top:0;
+  position: absolute;
+}
+
+.center {
+  width: 200px;
+  display:block;
+  margin:0; 
+}
+
+.right {
+
+  width:200px;
+
+  right:0;
+  top:0; 
+}
+  
+  .retroshadow {
+    color: #f19d4d;
+    
+    letter-spacing: 0.05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+  .images { 
+    padding: .5vw;
+    font-size: 0;
+    width: 100px;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-direction: row;
+    -webkit-flex-flow: row wrap; 
+    flex-flow: row wrap; 
+    display: -webkit-box;
+    display: flex;
+  }
+  .images div { 
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto; 
+    width: 200px; 
+    margin: .5vw; 
+  }
+  .images div img { 
+    width: 100%; 
+    height: auto; 
+  }
+  @media screen and (max-width: 400px) {
+    .images div { margin: 0; }
+    .images { padding: 0; }
+    
+  }
+  .image{
+    width: 100%;;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    margin-top: 15%;
+    vertical-align: middle;
+  }
+
+
+  /*//////////////////////////////////////////////////////////////////  CARD   //////////////////////////////////////////////////////////////////*/
+

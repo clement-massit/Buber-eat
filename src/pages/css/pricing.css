@@ -8,24 +8,26 @@ html {
 }
 
 .background {
+  
   padding: 0 25px 25px;
   position: relative;
   width: 100%;
 }
 
 .background::after {
+  
   content: '';
-  background: #60a9ff;
-  background: -moz-linear-gradient(top, #60a9ff 0%, #4394f4 100%);
-  background: -webkit-linear-gradient(top, #60a9ff 0%,#4394f4 100%);
-  background: linear-gradient(to bottom, #60a9ff 0%,#4394f4 100%);
+  background: #adff60;
+  background: -moz-linear-gradient(top, #fdcc9d  0%, #fdcc9d  100%);
+  background: -webkit-linear-gradient(top, #fdcc9d  0%,#fdcc9d  100%);
+  background: linear-gradient(to bottom, #fdcc9d  0%,#fdcc9d  100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9ff', endColorstr='#4394f4',GradientType=0 );
   height: 350px;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: -6;
 }
 
 @media (min-width: 900px) {
@@ -101,7 +103,7 @@ html {
 }
 
 .pricing-features {
-  color: #016FF9;
+  color: #8f3b0b;
   font-weight: 600;
   letter-spacing: 1px;
   margin: 50px 0 25px;
@@ -121,16 +123,16 @@ html {
 }
 
 .pricing-price {
-  color: #016FF9;
+  color: #8f3b0b;
   display: block;
   font-size: 32px;
   font-weight: 700;
 }
 
 .pricing-button {
-  border: 1px solid #9dd1ff;
+  border: 1px solid #fdcc9d;
   border-radius: 10px;
-  color: #348EFE;
+  color: #8f3b0b;
   display: inline-block;
   margin: 50px 0;
   padding: 15px 35px;
@@ -140,15 +142,15 @@ html {
 
 .pricing-button:hover,
 .pricing-button:focus {
-  background-color: #e1f1ff;
+  background-color: #fdcc9d;
 }
 
 .pricing-button.is-featured {
-  background-color: #48aaff;
-  color: #fff;
+  background-color: #fdcc9d;
+  color: #8f3b0b;
 }
 
 .pricing-button.is-featured:hover,
 .pricing-button.is-featured:active {
-  background-color: #269aff;
+  background-color: #f19d4d;
 }

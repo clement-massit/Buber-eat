@@ -9,6 +9,10 @@ import Typography from "@mui/material/Typography";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
+  const divStyle = {
+    background: '#f19d4d',
+   
+  };
   return (
     <nav
       role="navigation"
@@ -23,8 +27,8 @@ const Navbar = () => {
 
             </nav>
             <Box sx={{ flexGrow: 1 }}>
-              <AppBar position="static">
-                <Toolbar>
+              <AppBar position="static" >
+                <Toolbar style={divStyle}>
                  
                   <a class="navlink" href="/">Home</a>
                   <a class="navlink" href="/products">Products</a>

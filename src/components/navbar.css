@@ -1,12 +1,12 @@
 .navlink {
     text-decoration:none;
   transition: 0.3s ease;
-  background: #1976D2;
+  background: #f19d4d;
   color: #ffffff;
   font-size: 20px;
   text-decoration: none;
-  border-top: 4px solid #1976D2;
-  border-bottom: 4px solid #1976D2;
+  border-top: 4px solid #f19d4d;
+  border-bottom: 4px solid #f19d4d;
   
   padding: 15px 0;
   margin: 0 20px;
